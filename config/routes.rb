@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get 'figure_page/home'
-  root 'application#hello'
+  root 'figure_page#home'
+  get  'figure_page/home'
 end
